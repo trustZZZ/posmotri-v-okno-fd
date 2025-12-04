@@ -1,0 +1,29 @@
+{
+  "name": "posmotri-v-okno-fd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "write": "prettier --format './**/*.{html,css,js}'",
+    "lint": "stylelint \"**/*.css\"",
+    "lintfix": "stylelint \"**/*.css\" --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustZZZ/posmotri-v-okno-fd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trustZZZ/posmotri-v-okno-fd/issues"
+  },
+  "homepage": "https://github.com/trustZZZ/posmotri-v-okno-fd#readme",
+  "dependencies": {
+    "prettier": "^3.7.4",
+    "stylelint": "^16.26.1"
+  }
+}
