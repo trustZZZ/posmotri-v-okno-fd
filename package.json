@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "check": "prettier --check './**/*.{html,css,js}'",
-    "write": "prettier --format './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
     "lint": "stylelint \"**/*.css\"",
     "lintfix": "stylelint \"**/*.css\" --fix",
     "checkAll": "npm run check && npm run lint",
