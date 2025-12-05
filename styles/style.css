@@ -240,3 +240,37 @@ ol {
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
+
+.button {
+  background-color: transparent;
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0;
+}
+
+.search-form__submit-button {
+  padding: 6px 74px;
+  max-width: 194px;
+  max-height: 34px;
+  align-self: flex-end;
+}
+
+.more-button {
+  max-width: 390px;
+  min-height: 34px;
+}
+
+.button:hover {
+  content: '';
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+}
