@@ -240,6 +240,11 @@ ol {
 
 .search-form__textfield:focus {
   color: #fff;
+  outline: none;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff;
 }
 
 .search-form__textfield::placeholder {
@@ -283,7 +288,7 @@ ol {
   color: #fff;
   border: 1px solid #fff;
   padding: 0;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .search-form__submit-button {
@@ -305,4 +310,12 @@ ol {
 
 .button:active {
   background-color: #545050;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
 }
