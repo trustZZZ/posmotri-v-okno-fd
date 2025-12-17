@@ -62,15 +62,16 @@ ol {
 }
 
 .search-form {
+  position: relative;
+  bottom: 10px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
 }
 
 .content__list-container {
   position: relative;
   height: 298px;
-  overflow: scroll;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -89,7 +90,7 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 16px;
+  bottom: 25px;
 }
 
 .result__video {
@@ -113,7 +114,7 @@ ol {
   min-width: 194px;
   height: 103px;
   object-fit: cover;
-  object-position: right;
+  object-position: center;
 }
 
 .content__video-card-description-container {
@@ -121,7 +122,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -130,7 +131,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
@@ -174,7 +175,7 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -182,10 +183,11 @@ ol {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 6px;
+  max-width: 190px;
 }
 
 .content__video-card-description {
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -215,6 +217,8 @@ ol {
 }
 
 .search-form__label {
+  position: relative;
+  top: 5px;
   display: flex;
   align-items: center;
   width: fit-content;
@@ -223,7 +227,7 @@ ol {
 }
 
 .search-form__textfield {
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -279,7 +283,7 @@ ol {
 
 .button {
   background-color: transparent;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -292,6 +296,8 @@ ol {
 }
 
 .search-form__submit-button {
+  position: relative;
+  top: 6px;
   padding: 6px 74px;
   max-width: 194px;
   max-height: 34px;
